@@ -220,7 +220,7 @@ def before_battle(hero):
 
 def battle(hero, enemy):
     clear_window()
-    play_music(f'music/environment/fight.wav', loops=-1)
+    play_music(f'music/environment/fight.MP3', loops=-1)
     create_label(root, text=f'⚔️БОЙ⚔️', font_size=30, x=385, y=0)
     global hero_char, enemy_char
     hero_char = create_characteristic(hero, x=25, y=350)
